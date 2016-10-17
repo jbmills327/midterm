@@ -56,7 +56,7 @@ function mainController() {
 
     main.paths = [{
         uniqueId: 0,
-        description: "This is a test to see if I can get the TTS to work.",
+        description: "The quick brown fox jumped over the lazy dog.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: true
