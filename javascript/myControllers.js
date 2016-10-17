@@ -242,7 +242,9 @@ function mainController() {
         active: false
     }, ];
 
-    console.log(main.paths);
+    main.speakTheText = function(description) {
+        responsiveVoice.speak(description);
+    }
 
     main.choose = function(uniqueId, choice) {
         main.paths[uniqueId].active = false;

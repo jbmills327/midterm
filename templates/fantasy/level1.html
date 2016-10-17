@@ -38,15 +38,15 @@
     <div ng-show="main.hideLevelOneThumbs" class="goblinQuestBook" ng-repeat="path in main.paths | filter:main.isActive">
         <!-- This is the "X" button to take the user back to the home page -->
         <button type="button" class="close" ng-click="main.heresTheGoblin()" name="button">&times;</button>
-        <p>{{ path.description }} {{ path.uniqueId }}</p>
-
+        <p id="text">{{ path.description }} {{ path.uniqueId }}</p>
+        <!-- This is the button to activate TTS -->
+        <input class="playTTS" ng-click="main.speakTheText(path.description)" type='button' value='🔊 Play' />
         <!-- This is the button for the choice 1 -->
         <div class="choiceOne">
             <h4>Do you want to:   <button type="button" ng-click="main.choose(path.uniqueId, 1)" class = "btn btn-primary" name="button">{{ path.choiceOne }}</button></h4>
         </div>
 
-        <!-- This is the button to activate TTS -->
-        <input class="playTTS" onclick='responsiveVoice.speak("path.description");' type='button' value='🔊 Play' />
+
 
         <!-- This is the button for choice 2 -->
         <div class="choiceTwo">
