@@ -98,6 +98,12 @@ header {
     text-align: center;
 }
 
+.playTTS {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+}
+
 
 /*Styling and positioning the button for choice 2*/
 
