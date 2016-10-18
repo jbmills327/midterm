@@ -126,24 +126,30 @@ footer {
     position: relative;
     width: 100vw;
     height: auto;
-    background-color: black;
+    background-image: url(./resources/genericFantasy.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /*background-color: black;*/
     font-size: 3em;
-    text-align: right;
+    text-align: center;
     padding-right: 2%;
     padding-bottom: 1%;
     color: lightgray;
 }
 
 footer a {
-    padding-left: .5em;
-    bottom: 1em;
+    color: #c40522;
+    padding-left: .25em;
+    text-shadow: 1px 1px 1px lightgray;
 }
 
-footer h4 {
+
+/*.fluffy {
     position: absolute;
     text-align: left;
-    bottom: 1em;
-}
+    bottom: 0;
+}*/
 
 
 /* The side navigation menu */
@@ -240,6 +246,62 @@ footer h4 {
 }
 
 
+/*Media query to adjust dragon for devices with medium screens*/
+
+@media(max-width: 768px) {
+    .dragon {
+        background-position: center;
+        background-size: cover;
+        background-image: url(./resources/dragonFlying.png);
+        position: absolute;
+        width: 250px;
+        height: 175px;
+        top: 30%;
+        left: 50%;
+        /*transform: translate(-50%, -50%);*/
+    }
+    .large-dragon {
+        background-position: center;
+        background-size: cover;
+        background-image: url(./resources/largeDragon.png);
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        /*width: 70%;
+        height: 90%;*/
+        top: 98%;
+        left: 2%;
+    }
+    footer {
+        border-top: 5px solid black;
+        position: relative;
+        width: 100vw;
+        height: auto;
+        background-color: black;
+        /*font-size: 10px;*/
+        text-align: center;
+        /*padding-right: 2%;
+        padding-bottom: 1%;*/
+        color: lightgray;
+    }
+    footer a {
+        font-size: 20px;
+        color: #c40522;
+        /*position: absolute;*/
+        /*padding-left: .5em;
+        bottom: 1em;*/
+    }
+    footer h4 {
+        font-size: 20px;
+        /*position: absolute;*/
+        /*bottom: 1em;*/
+    }
+    footer h2 {
+        font-size: 20px;
+    }
+}
+
+
 /*Media query to adjust dragon for devices with smaller screens*/
 
 @media(max-width: 440px) {
@@ -248,10 +310,49 @@ footer h4 {
         background-size: cover;
         background-image: url(./resources/dragonFlying.png);
         position: absolute;
-        width: 200px;
-        height: 75px;
+        width: 250px;
+        height: 175px;
         top: 30%;
-        left: 50%;
+        left: 40%;
         /*transform: translate(-50%, -50%);*/
+    }
+    .large-dragon {
+        background-position: center;
+        background-size: cover;
+        background-image: url(./resources/largeDragon.png);
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        /*width: 70%;
+        height: 90%;*/
+        top: 98%;
+        left: 2%;
+    }
+    footer {
+        border-top: 5px solid black;
+        position: relative;
+        width: 100vw;
+        height: auto;
+        background-color: black;
+        /*font-size: 10px;*/
+        text-align: center;
+        /*padding-right: 2%;
+        padding-bottom: 1%;*/
+        color: lightgray;
+    }
+    footer a {
+        font-size: 20px;
+        color: #c40522;
+        /*position: absolute;*/
+        /*padding-left: .5em;
+        bottom: 1em;*/
+    }
+    footer h4 {
+        font-size: 20px;
+        /*position: absolute;*/
+        /*bottom: 1em;*/
+    }
+    footer h2 {
+        font-size: 20px;
     }
 }

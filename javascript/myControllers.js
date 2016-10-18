@@ -54,6 +54,8 @@ function mainController() {
 
     }
 
+
+    // These are the paths to assign text based on the page and choices made. 
     main.paths = [{
         uniqueId: 0,
         description: "The quick brown fox jumped over the lazy dog.",
@@ -62,198 +64,210 @@ function mainController() {
         active: true
     }, {
         uniqueId: 1,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 3,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 4,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 5,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 6,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 7,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 8,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 9,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 10,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 11,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 12,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 13,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 14,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 15,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 16,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 17,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 18,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 19,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 20,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 21,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 22,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 23,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 24,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 25,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 26,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 27,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 28,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 29,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, {
         uniqueId: 30,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
     }, ];
 
+
+    // This is the function that pipes the text in the description above to the TTS function.
     main.speakTheText = function(description) {
         responsiveVoice.speak(description);
     }
 
+
+    // This is the function that was created to move from one page to another when a choice is made.
     main.choose = function(uniqueId, choice) {
         main.paths[uniqueId].active = false;
         main.paths[uniqueId * 2 + choice].active = true;
     }
 
+    // This is the function for the custom filet that was created.
     main.isActive = function(path) {
         // console.info(arguments);
         return path.active;
+    }
+
+
+    // This is the function for the reset button to set pages back to 0
+    main.resetPages = function(uniqueId) {
+        main.paths[uniqueId].active = false;
+        main.paths[0].active = true;
     }
 
 
@@ -265,6 +279,7 @@ function mainController() {
     main.hideLevelOneThumbs = false;
     // This is used to toggle page two choice one
 
+    main.showQuote = true;
 
 
 
@@ -275,4 +290,8 @@ function mainController() {
         main.showGoblinQuest = !main.showGoblinQuest;
         main.hideLevelOneThumbs = !main.hideLevelOneThumbs;
     };
+    main.showTheQuote = function() {
+        main.showQuote = !main.showQuote;
+    }
+
 }
