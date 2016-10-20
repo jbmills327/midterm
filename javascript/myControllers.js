@@ -55,7 +55,7 @@ function mainController() {
     }
 
 
-    // These are the paths to assign text based on the page and choices made. 
+    // These are the paths to assign text based on the page and choices made.
     main.paths = [{
         uniqueId: 0,
         description: "The quick brown fox jumped over the lazy dog.",
@@ -242,6 +242,12 @@ function mainController() {
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
+    }, {
+        uniqueId: 31,
+        description: "YOU WON!!",
+        choiceOne: "Choice One",
+        choiceTwo: "Choice Two",
+        active: false
     }, ];
 
 
@@ -253,8 +259,13 @@ function mainController() {
 
     // This is the function that was created to move from one page to another when a choice is made.
     main.choose = function(uniqueId, choice) {
-        main.paths[uniqueId].active = false;
-        main.paths[uniqueId * 2 + choice].active = true;
+        if (uniqueId < 15) {
+            main.paths[uniqueId].active = false;
+            main.paths[uniqueId * 2 + choice].active = true;
+        } else {
+            main.paths[uniqueId].active = false;
+            main.paths[31].active = true;
+        }
     }
 
     // This is the function for the custom filet that was created.
