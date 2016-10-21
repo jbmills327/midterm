@@ -64,7 +64,7 @@ function mainController() {
         active: true
     }, {
         uniqueId: 1,
-        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
+        description: "While it is universally accepted that little Rob is Big Rob and big Rob is little Rob, there is still much debate as to which one is Handsome Rob.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
@@ -76,7 +76,7 @@ function mainController() {
         active: false
     }, {
         uniqueId: 3,
-        description: "The average page will only have one to two sentences.  This should be more than enough room for that to occur.",
+        description: "In contrast there is no debate as to who is handsome Steve.",
         choiceOne: "Choice One",
         choiceTwo: "Choice Two",
         active: false
